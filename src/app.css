@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', 'Noto Sans Thai', sans-serif;
+}
+
+.container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.bg-primary {
+    @apply bg-[#EFEEB4] hover:bg-[#E7E6AB] transition;
+}
+.text-primary {
+    @apply text-[#EFEEB4];
+}
